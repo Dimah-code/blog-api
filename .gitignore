@@ -1,4 +1,12 @@
+# Environments
 .venv/
+.env
+
+# Editor
 .idea/
+
+# Python
 __pycache__/
+
+# Database
 db.sqlite3

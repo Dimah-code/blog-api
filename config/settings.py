@@ -1,5 +1,9 @@
 from pathlib import Path
 
+from environs import Env
+
+nev = Env()
+env.read_env()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-v8tvkno#$38it)oqqc*5kl)x#uijtu&4mwgyo*q%!&8h8@_0t9'
